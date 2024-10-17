@@ -82,6 +82,7 @@ jobs:
             # Use http(s)://[hostname]/api/v3 to access the API for GitHub Enterprise Server
             # github-api-url: ''
       # Check what files are present
+      - run: ls -l
       - run: ln -s ./wexflow ./WorkflowEngine/wexflow
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v3
