@@ -104,8 +104,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/mwgevans/app:latest
-            ghcr.io/mwgevans/app:1.0.0     
+            ghcr.io/mwgevans/WexflowEngine:latest
+            ghcr.io/mwgevans/WexflowEngine:1.0.0     
  #           user/app:latest
  #           user/app:1.0.0
 
