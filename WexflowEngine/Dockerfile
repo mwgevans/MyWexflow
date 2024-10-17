@@ -19,9 +19,9 @@ COPY ./wexflow/ /opt/wexflow/
 
 # Tell Docker to use this as the base run directory for image:
 # (replaces original 'cd' command in Wexflow installation)
-# WORKDIR /opt/wexflow/Wexflow.Server
+WORKDIR /opt/wexflow/Wexflow.Server
 
 # Modification of installation instructions so that
 # Docker exposes the wexflow server once it’s run:
-# ENTRYPOINT ["dotnet", "Wexflow.Server.dll"]
+ENTRYPOINT ["dotnet", "Wexflow.Server.dll"]
 EXPOSE 8000
