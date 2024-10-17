@@ -12,7 +12,7 @@ RUN mkdir /opt/wexflow
 
 # Copy local download of wexflow-linux-netcore.zip
 # which was pre-downloaded and unzipped from https://github.com/aelassas/wexflow/releases/latest
-# COPY ./wexflow/ /opt/wexflow/
+COPY ./wexflow/ /opt/wexflow/
 
 
 # Instructions below translated from https://github.com/aelassas/wexflow/wiki/Installation
